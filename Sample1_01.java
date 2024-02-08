@@ -13,6 +13,21 @@ class Sample1_01 {
 		
 		// 合計金額を表示
 		System.out.println("支払い金額は" + (int)fullPrice + "円です");
+
+        // 練習問題　１〜５
+		
+		int ans = 3 + (7 % 4) / 2;
+		System.out.println(ans);
+		
+		int calc = 10;
+		int ans2 = ++calc;
+		System.out.println(calc);
+		System.out.println(ans2);
+		
+		int calc2 = 10;
+		int ans3 = calc2++;
+		
+		System.out.println(ans3);
 	}
 
 }
