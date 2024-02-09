@@ -40,6 +40,15 @@ class Sample1_01 {
 		
 		boolean  ans1 = 5 == 3 + 2;
 		System.out.println(ans1);
+
+        boolean answ = 5 >= 3 + 2;
+		System.out.println(answ);
+		
+		boolean answ2 = 5 >= 3 + 2 && 10 % 3 != 1;
+		System.out.println(answ2);
+		
+		boolean answ3 = (5 >= 3 + 2 || 2 + 8 != 9) && !(6 == 2 + 4);
+		System.out.println(answ3);
 	}
 
 }
