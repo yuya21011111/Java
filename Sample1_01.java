@@ -28,6 +28,18 @@ class Sample1_01 {
 		int ans3 = calc2++;
 		
 		System.out.println(ans3);
+
+        int calc3 = 10;
+		int ans4 = calc3 + 1;
+		System.out.println(calc3);
+		System.out.println(ans4);
+		
+		System.out.println( "1" + "6");
+		
+		// 練習問題　6〜９
+		
+		boolean  ans1 = 5 == 3 + 2;
+		System.out.println(ans1);
 	}
 
 }
