@@ -49,6 +49,14 @@ class Sample1_01 {
 		
 		boolean answ3 = (5 >= 3 + 2 || 2 + 8 != 9) && !(6 == 2 + 4);
 		System.out.println(answ3);
+
+        // データ型の変換
+        int a = 100;
+		double b = 1.5;
+		String c = "7";
+		double d = 1.2;
+		
+		System.out.println(Integer.parseInt((int)(a + b) + c) + d);
 	}
 
 }
