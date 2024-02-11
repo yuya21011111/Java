@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Sample1_01 {
 
 	public static void main(String[] args) {
@@ -70,6 +72,29 @@ class Sample1_01 {
 		
 		String animal = animals[0][2];
 		System.out.println(animal);
+
+        // 1文字に2バイト必要である。
+
+        // for文
+		
+		 Scanner scanner = new Scanner(System.in);
+		 System.out.println("for文を回す回数を数字で入力してください。");
+		 int countNumber = scanner.nextInt();
+		 String display = "";
+		 
+		 for(int i = 0; countNumber > i; i++) {
+			 display = display + "*";
+		 }
+		 System.out.println(display);
+		 
+		 String display2 = "";
+		 for(int i = 1; i <= 9; i++) {
+			 display2 = "";
+			 for(int j = 1; j <= 9; j++) {
+				 display2 = display2 + i * j + " ";
+			 }
+			 System.out.println(display2);
+		 }
 	}
 
 }
