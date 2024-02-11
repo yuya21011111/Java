@@ -107,6 +107,19 @@ class Sample1_01 {
 			 }
 			 System.out.println(display3);
 		 }
+
+         String[][] aniMals = {
+            {"モコ","トイプードル","３歳","オス"},
+            {"モモ","芝犬","２歳","メス"}
+    };
+    String anima = "";
+    for(int i = 0; i < aniMals.length; i++) {
+         anima = "";
+        for(int j = 0; j < aniMals[i].length; j++) {	 
+            anima =  anima + aniMals[i][j] + "/";
+        }
+        System.out.println(anima);
+    }
 	}
 
 }
