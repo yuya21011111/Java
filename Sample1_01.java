@@ -57,6 +57,19 @@ class Sample1_01 {
 		double d = 1.2;
 		
 		System.out.println(Integer.parseInt((int)(a + b) + c) + d);
+
+        // 配列
+		
+		String[] names = {"taro","takashi", "naoto","moco"};
+		String name = names[3];
+		
+		System.out.println(name);
+		System.out.println(names[3]);
+
+        String[][] animals = {{"芝犬","ミニチュアダックス","トイプードル"},{"シベリアンハスキー","ゴールデンレトリバー","ブルドッグ"},{"秋田犬","土佐犬","猫ミーム"}};
+		
+		String animal = animals[0][2];
+		System.out.println(animal);
 	}
 
 }
