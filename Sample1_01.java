@@ -87,6 +87,7 @@ class Sample1_01 {
 		 }
 		 System.out.println(display);
 		 
+         // 掛け算　1 2 3 4 5 6 7.....
 		 String display2 = "";
 		 for(int i = 1; i <= 9; i++) {
 			 display2 = "";
@@ -94,6 +95,17 @@ class Sample1_01 {
 				 display2 = display2 + i * j + " ";
 			 }
 			 System.out.println(display2);
+		 }
+
+         // 足し算 01 02 03 04 05 06 07.....
+         String display3 = "";
+		 for(int i = 0; i <= 9; i++) {
+			 display3 = "";
+			 for(int j = 0; j <= 9; j++) {
+				 String number = String.valueOf(i);
+				 display3 = display3 + number + j + " ";
+			 }
+			 System.out.println(display3);
 		 }
 	}
 
