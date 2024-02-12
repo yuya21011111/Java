@@ -120,6 +120,13 @@ class Sample1_01 {
         }
         System.out.println(anima);
     }
+    
+    // do while文
+    int number;
+		do {
+			number = 1 + (int)(Math.random() * 6.0);
+		}while(number != 6);
+		System.out.println("6が出たので終了します");
 	}
 
 }
