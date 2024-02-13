@@ -182,4 +182,28 @@ class Sample1_01 {
 				 System.out.println(display);
 			 }
 
+             // Switch文
+
+             Scanner scanner = new Scanner(System.in);
+             System.out.println("A型：1 B型:2 O型: 3 AB型: 4");
+             int number = scanner.nextInt();
+             
+             switch(number) {
+             
+             case 1:
+                 System.out.println("あなたは几帳面な性格の方ですね？");
+                 break;
+             case 2:
+                 System.out.println("あなたはマイペースな性格の方ですね？");
+                 break;
+             case 3:
+                 System.out.println("あなたは大雑把な性格ですね？");
+                 break;
+             case 4:
+                 System.out.println("あなたは天才肌な方ですね？");
+                 break;
+            default:
+                System.out.println("数字は１〜４で答えてください。");
+                break;
+             }
 }
