@@ -157,4 +157,29 @@ class Sample1_01 {
 			 }
 		 }
 
+         // break, continue文
+         quesion1:
+		 for(int i = 1; i <= 9; i++) {
+			 String display = "";
+			 for(int j = 1; j <= 9; j++) {
+				 if(i * j == 54) {
+					 break quesion1;
+				 }
+				 display = display + i * j + " "; 
+			 }
+			 System.out.println(display);
+		 }
+		 
+		 quesion2:
+			 for(int i = 1; i <= 9; i++) {
+				 String display = "";
+				 for(int j = 1; j <= 9; j++) {
+					 if(i * j == 54) {
+						 continue quesion2;
+					 }
+					 display = display + i * j + " "; 
+				 }
+				 System.out.println(display);
+			 }
+
 }
