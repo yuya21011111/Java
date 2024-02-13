@@ -129,4 +129,32 @@ class Sample1_01 {
 		System.out.println("6が出たので終了します");
 	}
 
+    // if文
+
+    Scanner scanner = new Scanner(System.in);
+		 System.out.println("点数を数字で入力してください。");
+		 int score = scanner.nextInt();
+		 
+		 if(score >= 80 && score < 100) {
+			 System.out.println("優秀です！");
+		 }else if(score >= 60 && score <= 79) {
+			 System.out.println("普通です");
+		 }else if(score >= 0 && score <= 59) {
+			 System.out.println("赤点です！");
+		 } else if(score == 100) {
+			 System.out.println("満点だったので宿題を免除します。");
+		 }else {
+			 System.out.print("不正な点数です");
+		 }
+		 
+		 Scanner scanner2 = new Scanner(System.in);
+		 int countNumber = 3;
+		 int receiveNuber = scanner2.nextInt();
+		 while(countNumber < 100) {
+			 if(countNumber % 3 == 0) {
+				 System.out.println(countNumber);
+				 countNumber *= receiveNuber;
+			 }
+		 }
+
 }
