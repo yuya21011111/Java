@@ -14,7 +14,7 @@ public class Jihanki {
 	            array[i] = scanner.nextInt();
 	        }
 	        
-	        for(int j = 0; j < array.length; j++) {
+	        for(int j = 0; j < array.length - 1; j++) {
 	        	if(array[j] == 1 || array[j] == 5) {
 	        		System.out.println("警告：" + array[j] + "円玉は使えません。");
 	        	}
@@ -27,4 +27,13 @@ public class Jihanki {
 	        }
 	        
 	        System.out.println("ただいまの投入金額は" + price + "円です。");
+	        
+	        int commodity = array[size - 1];
+	       
+	        if(price >= commodity) {
+	        	int change = price - commodity;
+	        	System.out.println(change + "円のおつりです。ありがとうございました。");
+	        }else {
+	        	System.out.println("商品代金が足りていません。");
+	        }
 }
