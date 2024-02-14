@@ -3,6 +3,8 @@ package Java学習;
 import java.util.Scanner;
 
 public class Jihanki {
+    // 自動販売機のプログラム
+
     Scanner scanner = new Scanner(System.in);
 		 System.out.print("配列のサイズを数字で指定してください：");
 	        int size = scanner.nextInt();
