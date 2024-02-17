@@ -23,4 +23,24 @@ public class Sample1_02 {
 		int result = i1 + i2;
 		return result;
 	}
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		String animal_Name = getName();
+		printName(animal_Name);
+	}
+
+	public static void printName(String animal_Name) {
+		// TODO 自動生成されたメソッド・スタブ
+		System.out.println("私は" + animal_Name + "です");
+		
+	}
+
+	public static String getName() {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("名前を入力してください。:");
+		String name = scanner.next();
+		return name;
+	}
 }
