@@ -3,7 +3,7 @@ package Java学習;
 import java.util.Scanner;
 
 public class Sample1_02 {
-    // メソッドです
+    // 足し算をするメソッド
     public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		 Scanner scanner = new Scanner(System.in);
@@ -24,6 +24,7 @@ public class Sample1_02 {
 		return result;
 	}
 
+	// 入力値を名前として出力するメソッド
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		String animal_Name = getName();
