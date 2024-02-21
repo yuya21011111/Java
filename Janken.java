@@ -17,27 +17,35 @@ public class Sample03 {
 			Random random = new Random();
 			int randomNumberCPU = random.nextInt(3) + 1;
 			prayer_hand = getHand(hand_number);
+			cpu_hand = getHand(randomNumberCPU);
 			
 			
 			 if(hand_number == randomNumberCPU) {
+				 System.out.println("プレイヤーは" + prayer_hand + "CPUは" + cpu_hand  );
 				 System.out.println("あいこです");
 			 }
 			 else if(hand_number == 1 && randomNumberCPU == 2) {
+				 System.out.println("プレイヤーは" + prayer_hand + "CPUは"+ cpu_hand );
 				 System.out.println("あなたの勝利です！");
 			 }
 			 else if(hand_number == 1 && randomNumberCPU == 3) {
+				 System.out.println("プレイヤーは" + prayer_hand + "CPUは"+ cpu_hand );
 				 System.out.println("あなたの敗北です！");
 			 }
 			 else if(hand_number == 2 && randomNumberCPU == 1) {
+				 System.out.println("プレイヤーは" + prayer_hand + "CPUは" + cpu_hand );
 				 System.out.println("あなたの敗北です！");
 			 }
 			 else if(hand_number == 2 && randomNumberCPU == 3) {
+				 System.out.println("プレイヤーは" + prayer_hand + "CPUは"+ cpu_hand );
 				 System.out.println("あなたの勝利です！");
 			 }
 			 else if(hand_number == 3 && randomNumberCPU == 1) {
+				 System.out.println("プレイヤーは" + prayer_hand + "CPUは"+ cpu_hand );
 				 System.out.println("あなたの勝利です！");
 			 }
 			 else if(hand_number == 3 && randomNumberCPU == 2) {
+				 System.out.println("プレイヤーは" + prayer_hand + "CPUは" + cpu_hand );
 				 System.out.println("あなたの敗北です！");
 			 }
 			 
@@ -51,8 +59,19 @@ public class Sample03 {
 		switch(hand_number) {
 		case 1:
 			 hand = "グー";
-		}
-		return null;
+			 break;
+		case 2:
+			hand = "チョキ";
+			break;
+		case 3:
+			hand = "パー";
+			break;
+		default:
+			hand = "Not";
+			break;
+		}	
+		
+		return hand;
 	}
 
 }
