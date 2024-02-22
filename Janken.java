@@ -74,4 +74,21 @@ public class Sample03 {
 		return hand;
 	}
 
+    package sample;
+import java.math.BigDecimal;
+public class Sample04 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		BigDecimal  a1 = new BigDecimal("0.2");
+		BigDecimal  b1 = new BigDecimal(83);
+		BigDecimal  c1 = new BigDecimal(-10.6);
+		BigDecimal result = a1.add(b1.multiply(c1));
+		System.out.println(result);
+
+	}
+
+}
+
+
 }
