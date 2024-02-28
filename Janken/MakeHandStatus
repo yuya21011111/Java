@@ -1,0 +1,20 @@
+package sample;
+
+class MakeHandStatus {
+	String name;
+	String handStatus;
+	
+	makeHandStatus(){
+		name = "未登録";
+		handStatus = "未登録";
+	}
+
+	public makeHandStatus(String name, String handStatus) {
+		// TODO 自動生成されたコンストラクター・スタブ
+		this();
+		this.name = name;
+		this.handStatus = handStatus;
+//		System.out.println(this.name);
+//		System.out.println(this.handStatus);
+	}
+}
