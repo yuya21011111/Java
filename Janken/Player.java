@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Player {
 
 	public static void main(String[] args) {
+
+        // じゃんけんプログラム
 		// TODO 自動生成されたメソッド・スタブ
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("審判役の名前を入力してね");
