@@ -12,6 +12,8 @@ class Carcolor {
 	
 	public Carcolor(String string, String string2) {
 		// TODO 自動生成されたコンストラクター・スタブ
+		this.name = string;
+		this.color = string;
 	}
 
 	public void getColor(String string) {
@@ -30,7 +32,9 @@ class Carcolor {
 		}
 		return col;
 	}
-	
-	
+
+	public String getName() {
+		return this.name;
+	}
 	
 }
