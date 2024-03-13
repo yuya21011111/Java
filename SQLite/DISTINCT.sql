@@ -1,0 +1,12 @@
+-- SQLite
+SELECT Age FROM Persons 
+
+SELECT DISTINCT Age FROM Persons
+
+SELECT * FROM Persons
+
+SELECT DISTINCT Name, Age FROM Persons
+
+SELECT DISTINCT Age FROM Persons WHERE Age < 25
+
+SELECT * FROM Persons LIMIT 3 OFFSET 2
